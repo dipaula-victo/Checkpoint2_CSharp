@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <StartupObject>Fiap.Estoque.UI.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Fiap.Estoque.BLL\Fiap.Estoque.BLL.csproj" />
+    <ProjectReference Include="..\Fiap.Estoque.Contracts\Fiap.Estoque.Contracts.csproj" />
+    <ProjectReference Include="..\Fiap.Estoque.Config\Fiap.Estoque.Config.csproj" />
+    <ProjectReference Include="..\Fiap.Estoque.DAL\Fiap.Estoque.DAL.csproj" />
+    <ProjectReference Include="..\Fiap.Estoque.Model\Fiap.Estoque.Model.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="App.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

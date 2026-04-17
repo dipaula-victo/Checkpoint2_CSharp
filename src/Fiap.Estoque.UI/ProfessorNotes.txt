@@ -1,0 +1,43 @@
+VERSÃO COM TODOS OS TODOs - orientação didática
+
+Objetivo desta versão:
+- a estrutura da solution já está pronta;
+- o cadastro continua funcionando parcialmente;
+- o núcleo da integração foi propositalmente deixado incompleto;
+- a turma completa amanhã uma parte viável em aula e leva o restante para casa.
+
+TODOs previstos para a aula:
+TODO 01 -> DAL.Listar()
+TODO 02 -> DAL.BuscarPorNome(string nome)
+TODO 03-A -> BLL.Listar()
+TODO 03-B -> BLL.BuscarPorNome(string nome)
+TODO 04 -> reforçar validações na BLL
+TODO 06-C -> botão Buscar na UI
+TODO 06-D -> recarga do DataGridView
+
+TODOs que podem ficar para depois:
+TODO 05 -> AtualizarEstoque()
+TODO 06-A -> carregar grid automaticamente no Load
+TODO 06-B -> recarregar grid logo após salvar
+
+Sugestão de recorte pedagógico para amanhã:
+1) Explicar arquitetura e interfaces
+2) Implementar DAL.Listar com a turma
+3) Implementar BLL.Listar com a turma
+4) Implementar CarregarGrid na UI
+5) Implementar DAL.BuscarPorNome
+6) Implementar BLL.BuscarPorNome
+7) Implementar btnBuscar_Click
+8) Revisar validações mínimas
+
+Entrega possível ao fim da aula:
+- salvar produto
+- recarregar/listar produtos
+- buscar por nome
+
+Continuação em casa:
+- carregar grid ao abrir a tela
+- recarregar automaticamente após salvar
+- melhorar validações
+- implementar atualização de estoque
+- melhorar mensagens e usabilidade

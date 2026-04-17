@@ -1,0 +1,17 @@
+C:\Users\switch\Desktop\Fiap.Estoque.BaseComTODOs\Fiap.Estoque.BaseComTODOs\src\Fiap.Estoque.DAL\bin\Debug\net8.0\Fiap.Estoque.DAL.deps.json
+C:\Users\switch\Desktop\Fiap.Estoque.BaseComTODOs\Fiap.Estoque.BaseComTODOs\src\Fiap.Estoque.DAL\bin\Debug\net8.0\Fiap.Estoque.DAL.dll
+C:\Users\switch\Desktop\Fiap.Estoque.BaseComTODOs\Fiap.Estoque.BaseComTODOs\src\Fiap.Estoque.DAL\bin\Debug\net8.0\Fiap.Estoque.DAL.pdb
+C:\Users\switch\Desktop\Fiap.Estoque.BaseComTODOs\Fiap.Estoque.BaseComTODOs\src\Fiap.Estoque.DAL\bin\Debug\net8.0\Fiap.Estoque.Contracts.dll
+C:\Users\switch\Desktop\Fiap.Estoque.BaseComTODOs\Fiap.Estoque.BaseComTODOs\src\Fiap.Estoque.DAL\bin\Debug\net8.0\Fiap.Estoque.Model.dll
+C:\Users\switch\Desktop\Fiap.Estoque.BaseComTODOs\Fiap.Estoque.BaseComTODOs\src\Fiap.Estoque.DAL\bin\Debug\net8.0\Fiap.Estoque.Contracts.pdb
+C:\Users\switch\Desktop\Fiap.Estoque.BaseComTODOs\Fiap.Estoque.BaseComTODOs\src\Fiap.Estoque.DAL\bin\Debug\net8.0\Fiap.Estoque.Model.pdb
+C:\Users\switch\Desktop\Fiap.Estoque.BaseComTODOs\Fiap.Estoque.BaseComTODOs\src\Fiap.Estoque.DAL\obj\Debug\net8.0\Fiap.Estoque.DAL.csproj.AssemblyReference.cache
+C:\Users\switch\Desktop\Fiap.Estoque.BaseComTODOs\Fiap.Estoque.BaseComTODOs\src\Fiap.Estoque.DAL\obj\Debug\net8.0\Fiap.Estoque.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\switch\Desktop\Fiap.Estoque.BaseComTODOs\Fiap.Estoque.BaseComTODOs\src\Fiap.Estoque.DAL\obj\Debug\net8.0\Fiap.Estoque.DAL.AssemblyInfoInputs.cache
+C:\Users\switch\Desktop\Fiap.Estoque.BaseComTODOs\Fiap.Estoque.BaseComTODOs\src\Fiap.Estoque.DAL\obj\Debug\net8.0\Fiap.Estoque.DAL.AssemblyInfo.cs
+C:\Users\switch\Desktop\Fiap.Estoque.BaseComTODOs\Fiap.Estoque.BaseComTODOs\src\Fiap.Estoque.DAL\obj\Debug\net8.0\Fiap.Estoque.DAL.csproj.CoreCompileInputs.cache
+C:\Users\switch\Desktop\Fiap.Estoque.BaseComTODOs\Fiap.Estoque.BaseComTODOs\src\Fiap.Estoque.DAL\obj\Debug\net8.0\Fiap.Est.796A2295.Up2Date
+C:\Users\switch\Desktop\Fiap.Estoque.BaseComTODOs\Fiap.Estoque.BaseComTODOs\src\Fiap.Estoque.DAL\obj\Debug\net8.0\Fiap.Estoque.DAL.dll
+C:\Users\switch\Desktop\Fiap.Estoque.BaseComTODOs\Fiap.Estoque.BaseComTODOs\src\Fiap.Estoque.DAL\obj\Debug\net8.0\refint\Fiap.Estoque.DAL.dll
+C:\Users\switch\Desktop\Fiap.Estoque.BaseComTODOs\Fiap.Estoque.BaseComTODOs\src\Fiap.Estoque.DAL\obj\Debug\net8.0\Fiap.Estoque.DAL.pdb
+C:\Users\switch\Desktop\Fiap.Estoque.BaseComTODOs\Fiap.Estoque.BaseComTODOs\src\Fiap.Estoque.DAL\obj\Debug\net8.0\ref\Fiap.Estoque.DAL.dll
