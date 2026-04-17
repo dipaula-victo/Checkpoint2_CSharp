@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YJgyvXcECZY=",
+  "dgSpecHash": "iJ8CcTIoQ6c=",
   "success": true,
-  "projectFilePath": "C:\\Users\\switch\\Desktop\\Fiap.Estoque.BaseComTODOs\\Fiap.Estoque.BaseComTODOs\\src\\Fiap.Estoque.DAL\\Fiap.Estoque.DAL.csproj",
+  "projectFilePath": "C:\\Users\\switch\\Desktop\\Checkpoint2_CSharp\\src\\Fiap.Estoque.DAL\\Fiap.Estoque.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\switch\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\switch\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

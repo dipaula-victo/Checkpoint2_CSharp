@@ -12,10 +12,27 @@ internal static class Program
     {
         ApplicationConfiguration.Initialize();
 
-        IConnectionStringProvider connectionStringProvider = new AppConfigConnectionStringProvider();
-        IProdutoRepository produtoRepository = new ProdutoRepositoryADO(connectionStringProvider);
-        IProdutoService produtoService = new ProdutoService(produtoRepository);
+        try
+        {
+            // Connection String centralizada
+            IConnectionStringProvider connectionStringProvider = new AppConfigConnectionStringProvider();
 
-        Application.Run(new MainForm(produtoService));
+            // DAL
+            IProdutoRepository produtoRepository = new ProdutoRepositoryADO(connectionStringProvider);
+
+            // BLL
+            IProdutoService produtoService = new ProdutoService(produtoRepository);
+
+            // UI
+            Application.Run(new MainForm(produtoService));
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show(
+                "Erro ao iniciar o sistema: " + ex.Message,
+                "Erro",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Error);
+        }
     }
 }

@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\switch\\Desktop\\Checkpoint2_CSharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A6666666-6666-6666-6666-666666666666}|src\\Fiap.Estoque.UI\\Fiap.Estoque.UI.csproj|c:\\users\\switch\\desktop\\checkpoint2_csharp\\src\\fiap.estoque.ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6666666-6666-6666-6666-666666666666}|src\\Fiap.Estoque.UI\\Fiap.Estoque.UI.csproj|solutionrelative:src\\fiap.estoque.ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6666666-6666-6666-6666-666666666666}|src\\Fiap.Estoque.UI\\Fiap.Estoque.UI.csproj|c:\\users\\switch\\desktop\\checkpoint2_csharp\\src\\fiap.estoque.ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A6666666-6666-6666-6666-666666666666}|src\\Fiap.Estoque.UI\\Fiap.Estoque.UI.csproj|solutionrelative:src\\fiap.estoque.ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2222222-2222-2222-2222-222222222222}|src\\Fiap.Estoque.Contracts\\Fiap.Estoque.Contracts.csproj|c:\\users\\switch\\desktop\\checkpoint2_csharp\\src\\fiap.estoque.contracts\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2222222-2222-2222-2222-222222222222}|src\\Fiap.Estoque.Contracts\\Fiap.Estoque.Contracts.csproj|solutionrelative:src\\fiap.estoque.contracts\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\switch\\Desktop\\Checkpoint2_CSharp\\src\\Fiap.Estoque.UI\\MainForm.cs",
+              "RelativeDocumentMoniker": "src\\Fiap.Estoque.UI\\MainForm.cs",
+              "ToolTip": "C:\\Users\\switch\\Desktop\\Checkpoint2_CSharp\\src\\Fiap.Estoque.UI\\MainForm.cs",
+              "RelativeToolTip": "src\\Fiap.Estoque.UI\\MainForm.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAiwIAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T15:06:05.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainForm.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\switch\\Desktop\\Checkpoint2_CSharp\\src\\Fiap.Estoque.UI\\MainForm.cs",
+              "RelativeDocumentMoniker": "src\\Fiap.Estoque.UI\\MainForm.cs",
+              "ToolTip": "C:\\Users\\switch\\Desktop\\Checkpoint2_CSharp\\src\\Fiap.Estoque.UI\\MainForm.cs [Projeto]",
+              "RelativeToolTip": "src\\Fiap.Estoque.UI\\MainForm.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T15:05:51.368Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IProdutoService.cs",
+              "DocumentMoniker": "C:\\Users\\switch\\Desktop\\Checkpoint2_CSharp\\src\\Fiap.Estoque.Contracts\\IProdutoService.cs",
+              "RelativeDocumentMoniker": "src\\Fiap.Estoque.Contracts\\IProdutoService.cs",
+              "ToolTip": "C:\\Users\\switch\\Desktop\\Checkpoint2_CSharp\\src\\Fiap.Estoque.Contracts\\IProdutoService.cs",
+              "RelativeToolTip": "src\\Fiap.Estoque.Contracts\\IProdutoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-17T15:05:35.856Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -20,25 +20,19 @@ public class ProdutoService : IProdutoService
 
     public List<Produto> Listar()
     {
-        // TODO 03-A:
-        // Chamar o repositório e devolver a listagem completa.
-        // Exemplo esperado: return _produtoRepository.Listar();
-        //
-        // Foi deixado como TODO para que a turma ligue a BLL à DAL.
-
-        return new List<Produto>();
+        // integração com DAL
+        return _produtoRepository.Listar();
     }
 
     public List<Produto> BuscarPorNome(string nome)
     {
-        // TODO 03-B:
-        // Regras esperadas:
-        // 1) se nome vier vazio ou só com espaços, retornar Listar();
-        // 2) caso contrário, chamar _produtoRepository.BuscarPorNome(nome);
-        //
-        // Foi deixado como TODO para consolidar o papel da BLL.
+        // regra de negócio
+        if (string.IsNullOrWhiteSpace(nome))
+        {
+            return Listar();
+        }
 
-        return new List<Produto>();
+        return _produtoRepository.BuscarPorNome(nome);
     }
 
     public void AtualizarEstoque(int id, int quantidade, char tipo)
@@ -61,6 +55,16 @@ public class ProdutoService : IProdutoService
         _produtoRepository.AtualizarEstoque(id, quantidade, tipo);
     }
 
+    public void Remover(int id)
+    {
+        if (id <= 0)
+        {
+            throw new ArgumentException("Produto inválido.");
+        }
+
+        _produtoRepository.Remover(id);
+    }
+
     private static void ValidarProduto(Produto produto)
     {
         if (produto is null)
@@ -68,18 +72,21 @@ public class ProdutoService : IProdutoService
             throw new ArgumentNullException(nameof(produto));
         }
 
-        // TODO 04:
-        // Reforçar as validações abaixo com a turma.
-        // Regras mínimas sugeridas:
-        // - Nome obrigatório
-        // - Preço maior que zero
-        // - Quantidade não negativa
-        //
-        // A versão abaixo está intencionalmente simples para servir de exercício.
+        // validações completas (diferencial)
 
         if (string.IsNullOrWhiteSpace(produto.Nome))
         {
             throw new ArgumentException("Informe o nome do produto.");
+        }
+
+        if (produto.Preco <= 0)
+        {
+            throw new ArgumentException("O preço deve ser maior que zero.");
+        }
+
+        if (produto.Quantidade < 0)
+        {
+            throw new ArgumentException("A quantidade não pode ser negativa.");
         }
     }
 }

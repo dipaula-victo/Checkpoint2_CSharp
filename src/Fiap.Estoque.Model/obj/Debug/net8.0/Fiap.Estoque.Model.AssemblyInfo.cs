@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fiap.Estoque.Model")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab7fbd0e09741a84ecdc593a89dcc41e4e0d51f0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fiap.Estoque.Model")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fiap.Estoque.Model")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

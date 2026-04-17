@@ -45,6 +45,7 @@ partial class MainForm
         btnRecarregar = new Button();
         btnLimpar = new Button();
         dgvProdutos = new DataGridView();
+        btnRemover = new Button();
         ((System.ComponentModel.ISupportInitialize)dgvProdutos).BeginInit();
         SuspendLayout();
         // 
@@ -54,7 +55,7 @@ partial class MainForm
         lblTitulo.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
         lblTitulo.Location = new Point(24, 18);
         lblTitulo.Name = "lblTitulo";
-        lblTitulo.Size = new Size(411, 30);
+        lblTitulo.Size = new Size(429, 30);
         lblTitulo.TabIndex = 0;
         lblTitulo.Text = "FIAP - Controle de Estoque em Camadas";
         // 
@@ -67,13 +68,6 @@ partial class MainForm
         lblNome.TabIndex = 1;
         lblNome.Text = "Nome:";
         // 
-        // txtNome
-        // 
-        txtNome.Location = new Point(24, 92);
-        txtNome.Name = "txtNome";
-        txtNome.Size = new Size(260, 23);
-        txtNome.TabIndex = 2;
-        // 
         // lblPreco
         // 
         lblPreco.AutoSize = true;
@@ -82,13 +76,6 @@ partial class MainForm
         lblPreco.Size = new Size(40, 15);
         lblPreco.TabIndex = 3;
         lblPreco.Text = "Preço:";
-        // 
-        // txtPreco
-        // 
-        txtPreco.Location = new Point(304, 92);
-        txtPreco.Name = "txtPreco";
-        txtPreco.Size = new Size(120, 23);
-        txtPreco.TabIndex = 4;
         // 
         // lblQuantidade
         // 
@@ -99,12 +86,42 @@ partial class MainForm
         lblQuantidade.TabIndex = 5;
         lblQuantidade.Text = "Quantidade:";
         // 
+        // lblBusca
+        // 
+        lblBusca.AutoSize = true;
+        lblBusca.Location = new Point(24, 142);
+        lblBusca.Name = "lblBusca";
+        lblBusca.Size = new Size(146, 15);
+        lblBusca.TabIndex = 9;
+        lblBusca.Text = "Buscar produto por nome:";
+        // 
+        // txtNome
+        // 
+        txtNome.Location = new Point(24, 92);
+        txtNome.Name = "txtNome";
+        txtNome.Size = new Size(260, 23);
+        txtNome.TabIndex = 2;
+        // 
+        // txtPreco
+        // 
+        txtPreco.Location = new Point(304, 92);
+        txtPreco.Name = "txtPreco";
+        txtPreco.Size = new Size(120, 23);
+        txtPreco.TabIndex = 4;
+        // 
         // txtQuantidade
         // 
         txtQuantidade.Location = new Point(444, 92);
         txtQuantidade.Name = "txtQuantidade";
         txtQuantidade.Size = new Size(120, 23);
         txtQuantidade.TabIndex = 6;
+        // 
+        // txtBusca
+        // 
+        txtBusca.Location = new Point(24, 160);
+        txtBusca.Name = "txtBusca";
+        txtBusca.Size = new Size(400, 23);
+        txtBusca.TabIndex = 10;
         // 
         // btnSalvar
         // 
@@ -115,32 +132,6 @@ partial class MainForm
         btnSalvar.Text = "Salvar";
         btnSalvar.UseVisualStyleBackColor = true;
         btnSalvar.Click += btnSalvar_Click;
-        // 
-        // btnLimpar
-        // 
-        btnLimpar.Location = new Point(720, 91);
-        btnLimpar.Name = "btnLimpar";
-        btnLimpar.Size = new Size(120, 25);
-        btnLimpar.TabIndex = 8;
-        btnLimpar.Text = "Limpar";
-        btnLimpar.UseVisualStyleBackColor = true;
-        btnLimpar.Click += btnLimpar_Click;
-        // 
-        // lblBusca
-        // 
-        lblBusca.AutoSize = true;
-        lblBusca.Location = new Point(24, 142);
-        lblBusca.Name = "lblBusca";
-        lblBusca.Size = new Size(131, 15);
-        lblBusca.TabIndex = 9;
-        lblBusca.Text = "Buscar produto por nome:";
-        // 
-        // txtBusca
-        // 
-        txtBusca.Location = new Point(24, 160);
-        txtBusca.Name = "txtBusca";
-        txtBusca.Size = new Size(400, 23);
-        txtBusca.TabIndex = 10;
         // 
         // btnBuscar
         // 
@@ -162,6 +153,16 @@ partial class MainForm
         btnRecarregar.UseVisualStyleBackColor = true;
         btnRecarregar.Click += btnRecarregar_Click;
         // 
+        // btnLimpar
+        // 
+        btnLimpar.Location = new Point(720, 91);
+        btnLimpar.Name = "btnLimpar";
+        btnLimpar.Size = new Size(120, 25);
+        btnLimpar.TabIndex = 8;
+        btnLimpar.Text = "Limpar";
+        btnLimpar.UseVisualStyleBackColor = true;
+        btnLimpar.Click += btnLimpar_Click;
+        // 
         // dgvProdutos
         // 
         dgvProdutos.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
@@ -171,11 +172,22 @@ partial class MainForm
         dgvProdutos.Size = new Size(816, 295);
         dgvProdutos.TabIndex = 13;
         // 
+        // btnRemover
+        // 
+        btnRemover.Location = new Point(720, 159);
+        btnRemover.Name = "btnRemover";
+        btnRemover.Size = new Size(120, 25);
+        btnRemover.TabIndex = 14;
+        btnRemover.Text = "Remover";
+        btnRemover.UseVisualStyleBackColor = true;
+        btnRemover.Click += btnRemover_Click;
+        // 
         // MainForm
         // 
         AutoScaleDimensions = new SizeF(7F, 15F);
         AutoScaleMode = AutoScaleMode.Font;
         ClientSize = new Size(870, 530);
+        Controls.Add(btnRemover);
         Controls.Add(dgvProdutos);
         Controls.Add(btnRecarregar);
         Controls.Add(btnBuscar);
@@ -198,4 +210,6 @@ partial class MainForm
         ResumeLayout(false);
         PerformLayout();
     }
+
+    private Button btnRemover;
 }

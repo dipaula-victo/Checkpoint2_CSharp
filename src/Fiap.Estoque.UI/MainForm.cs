@@ -15,9 +15,8 @@ public partial class MainForm : Form
 
     private void MainForm_Load(object sender, EventArgs e)
     {
-        // TODO 06-A:
-        // Decidir com a turma se o grid deve carregar automaticamente ao abrir a tela.
-        // Sugestão: chamar CarregarGrid();
+        // Carregar grid ao abrir
+        CarregarGrid();
     }
 
     private void btnSalvar_Click(object sender, EventArgs e)
@@ -35,9 +34,8 @@ public partial class MainForm : Form
 
             LimparCampos();
 
-            // TODO 06-B:
-            // Depois de salvar, recarregar o grid para o usuário ver o novo registro.
-            // Sugestão: chamar CarregarGrid();
+            // Atualizar grid após salvar
+            CarregarGrid();
 
             MessageBox.Show(
                 "Produto cadastrado com sucesso.",
@@ -59,22 +57,17 @@ public partial class MainForm : Form
     {
         try
         {
-            // TODO 06-C:
-            // Implementar a busca por nome na interface.
-            // Passos sugeridos:
-            // 1) ler txtBusca.Text.Trim();
-            // 2) chamar _produtoService.BuscarPorNome(termo);
-            // 3) atribuir o resultado ao DataGridView.
-            //
-            // Exemplo esperado ao final:
-            // var termo = txtBusca.Text.Trim();
-            // dgvProdutos.DataSource = _produtoService.BuscarPorNome(termo);
+            string termo = txtBusca.Text.Trim();
 
-            MessageBox.Show(
-                "TODO 06-C: implementar o botão Buscar.",
-                "Atividade",
-                MessageBoxButtons.OK,
-                MessageBoxIcon.Information);
+            dgvProdutos.AutoGenerateColumns = true;
+            dgvProdutos.DataSource = null;
+
+            var lista = _produtoService.BuscarPorNome(termo) ?? new List<Produto>();
+
+            // ordenação crescente por ID
+            dgvProdutos.DataSource = lista
+                .OrderBy(p => p.Id)
+                .ToList();
         }
         catch (Exception ex)
         {
@@ -98,15 +91,29 @@ public partial class MainForm : Form
 
     private void CarregarGrid()
     {
-        // TODO 06-D:
-        // Implementar a recarga do grid chamando a BLL.
-        // Passos sugeridos:
-        // 1) dgvProdutos.AutoGenerateColumns = true;
-        // 2) dgvProdutos.DataSource = null;
-        // 3) dgvProdutos.DataSource = _produtoService.Listar();
+        try
+        {
+            dgvProdutos.AutoGenerateColumns = true;
+            dgvProdutos.DataSource = null;
 
-        dgvProdutos.AutoGenerateColumns = true;
-        dgvProdutos.DataSource = null;
+            var lista = _produtoService.Listar() ?? new List<Produto>();
+
+            // ordenação crescente por ID
+            dgvProdutos.DataSource = lista
+                .OrderBy(p => p.Id)
+                .ToList();
+
+            // Ajuste visual (diferencial)
+            dgvProdutos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show(
+                "Erro ao carregar produtos: " + ex.Message,
+                "Erro",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Error);
+        }
     }
 
     private void LimparCampos()
@@ -115,5 +122,38 @@ public partial class MainForm : Form
         txtPreco.Clear();
         txtQuantidade.Clear();
         txtNome.Focus();
+    }
+
+    private void btnRemover_Click(object sender, EventArgs e)
+    {
+        try
+        {
+            if (dgvProdutos.CurrentRow == null)
+            {
+                MessageBox.Show("Selecione um produto.");
+                return;
+            }
+
+            int id = Convert.ToInt32(dgvProdutos.CurrentRow.Cells["Id"].Value);
+
+            var confirmacao = MessageBox.Show(
+                "Tem certeza que deseja remover este produto?",
+                "Confirmação",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning);
+
+            if (confirmacao == DialogResult.Yes)
+            {
+                _produtoService.Remover(id);
+
+                CarregarGrid();
+
+                MessageBox.Show("Produto removido com sucesso.");
+            }
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show("Erro ao remover: " + ex.Message);
+        }
     }
 }
