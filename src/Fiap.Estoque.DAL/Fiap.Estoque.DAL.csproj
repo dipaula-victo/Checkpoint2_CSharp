@@ -9,6 +9,6 @@
     <ProjectReference Include="..\Fiap.Estoque.Model\Fiap.Estoque.Model.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.4" />
   </ItemGroup>
 </Project>

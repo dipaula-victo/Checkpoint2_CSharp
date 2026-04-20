@@ -1,18 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\switch\\Desktop\\Checkpoint2_CSharp\\",
+  "WorkspaceRootPath": "C:\\Users\\otavioferrao\\source\\repos\\Checkpoint2_CSharp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6666666-6666-6666-6666-666666666666}|src\\Fiap.Estoque.UI\\Fiap.Estoque.UI.csproj|c:\\users\\switch\\desktop\\checkpoint2_csharp\\src\\fiap.estoque.ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A6666666-6666-6666-6666-666666666666}|src\\Fiap.Estoque.UI\\Fiap.Estoque.UI.csproj|c:\\users\\otavioferrao\\source\\repos\\checkpoint2_csharp\\src\\fiap.estoque.ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A6666666-6666-6666-6666-666666666666}|src\\Fiap.Estoque.UI\\Fiap.Estoque.UI.csproj|solutionrelative:src\\fiap.estoque.ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2222222-2222-2222-2222-222222222222}|src\\Fiap.Estoque.Contracts\\Fiap.Estoque.Contracts.csproj|c:\\users\\otavioferrao\\source\\repos\\checkpoint2_csharp\\src\\fiap.estoque.contracts\\iconnectionstringprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2222222-2222-2222-2222-222222222222}|src\\Fiap.Estoque.Contracts\\Fiap.Estoque.Contracts.csproj|solutionrelative:src\\fiap.estoque.contracts\\iconnectionstringprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3333333-3333-3333-3333-333333333333}|src\\Fiap.Estoque.Config\\Fiap.Estoque.Config.csproj|c:\\users\\otavioferrao\\source\\repos\\checkpoint2_csharp\\src\\fiap.estoque.config\\appconfigconnectionstringprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3333333-3333-3333-3333-333333333333}|src\\Fiap.Estoque.Config\\Fiap.Estoque.Config.csproj|solutionrelative:src\\fiap.estoque.config\\appconfigconnectionstringprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6666666-6666-6666-6666-666666666666}|src\\Fiap.Estoque.UI\\Fiap.Estoque.UI.csproj|c:\\users\\otavioferrao\\source\\repos\\checkpoint2_csharp\\src\\fiap.estoque.ui\\fiap.estoque.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A6666666-6666-6666-6666-666666666666}|src\\Fiap.Estoque.UI\\Fiap.Estoque.UI.csproj|solutionrelative:src\\fiap.estoque.ui\\fiap.estoque.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6666666-6666-6666-6666-666666666666}|src\\Fiap.Estoque.UI\\Fiap.Estoque.UI.csproj|c:\\users\\otavioferrao\\source\\repos\\checkpoint2_csharp\\src\\fiap.estoque.ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6666666-6666-6666-6666-666666666666}|src\\Fiap.Estoque.UI\\Fiap.Estoque.UI.csproj|solutionrelative:src\\fiap.estoque.ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6666666-6666-6666-6666-666666666666}|src\\Fiap.Estoque.UI\\Fiap.Estoque.UI.csproj|c:\\users\\switch\\desktop\\checkpoint2_csharp\\src\\fiap.estoque.ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A6666666-6666-6666-6666-666666666666}|src\\Fiap.Estoque.UI\\Fiap.Estoque.UI.csproj|solutionrelative:src\\fiap.estoque.ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A6666666-6666-6666-6666-666666666666}|src\\Fiap.Estoque.UI\\Fiap.Estoque.UI.csproj|c:\\users\\otavioferrao\\source\\repos\\checkpoint2_csharp\\src\\fiap.estoque.ui\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6666666-6666-6666-6666-666666666666}|src\\Fiap.Estoque.UI\\Fiap.Estoque.UI.csproj|solutionrelative:src\\fiap.estoque.ui\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2222222-2222-2222-2222-222222222222}|src\\Fiap.Estoque.Contracts\\Fiap.Estoque.Contracts.csproj|c:\\users\\switch\\desktop\\checkpoint2_csharp\\src\\fiap.estoque.contracts\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2222222-2222-2222-2222-222222222222}|src\\Fiap.Estoque.Contracts\\Fiap.Estoque.Contracts.csproj|solutionrelative:src\\fiap.estoque.contracts\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6666666-6666-6666-6666-666666666666}|src\\Fiap.Estoque.UI\\Fiap.Estoque.UI.csproj|c:\\users\\otavioferrao\\source\\repos\\checkpoint2_csharp\\src\\fiap.estoque.ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A6666666-6666-6666-6666-666666666666}|src\\Fiap.Estoque.UI\\Fiap.Estoque.UI.csproj|solutionrelative:src\\fiap.estoque.ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +38,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainForm.cs",
-              "DocumentMoniker": "C:\\Users\\switch\\Desktop\\Checkpoint2_CSharp\\src\\Fiap.Estoque.UI\\MainForm.cs",
-              "RelativeDocumentMoniker": "src\\Fiap.Estoque.UI\\MainForm.cs",
-              "ToolTip": "C:\\Users\\switch\\Desktop\\Checkpoint2_CSharp\\src\\Fiap.Estoque.UI\\MainForm.cs",
-              "RelativeToolTip": "src\\Fiap.Estoque.UI\\MainForm.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAiwIAAAAALAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "IConnectionStringProvider.cs",
+              "DocumentMoniker": "C:\\Users\\otavioferrao\\source\\repos\\Checkpoint2_CSharp\\src\\Fiap.Estoque.Contracts\\IConnectionStringProvider.cs",
+              "RelativeDocumentMoniker": "src\\Fiap.Estoque.Contracts\\IConnectionStringProvider.cs",
+              "ToolTip": "C:\\Users\\otavioferrao\\source\\repos\\Checkpoint2_CSharp\\src\\Fiap.Estoque.Contracts\\IConnectionStringProvider.cs",
+              "RelativeToolTip": "src\\Fiap.Estoque.Contracts\\IConnectionStringProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T15:06:05.222Z",
+              "WhenOpened": "2026-04-20T20:17:32.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainForm.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\switch\\Desktop\\Checkpoint2_CSharp\\src\\Fiap.Estoque.UI\\MainForm.cs",
-              "RelativeDocumentMoniker": "src\\Fiap.Estoque.UI\\MainForm.cs",
-              "ToolTip": "C:\\Users\\switch\\Desktop\\Checkpoint2_CSharp\\src\\Fiap.Estoque.UI\\MainForm.cs [Projeto]",
-              "RelativeToolTip": "src\\Fiap.Estoque.UI\\MainForm.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T15:05:51.368Z",
-              "EditorCaption": " [Projeto]"
+              "DocumentIndex": 0,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\otavioferrao\\source\\repos\\Checkpoint2_CSharp\\src\\Fiap.Estoque.UI\\App.config",
+              "RelativeDocumentMoniker": "src\\Fiap.Estoque.UI\\App.config",
+              "ToolTip": "C:\\Users\\otavioferrao\\source\\repos\\Checkpoint2_CSharp\\src\\Fiap.Estoque.UI\\App.config*",
+              "RelativeToolTip": "src\\Fiap.Estoque.UI\\App.config*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-04-20T20:17:12.912Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IProdutoService.cs",
-              "DocumentMoniker": "C:\\Users\\switch\\Desktop\\Checkpoint2_CSharp\\src\\Fiap.Estoque.Contracts\\IProdutoService.cs",
-              "RelativeDocumentMoniker": "src\\Fiap.Estoque.Contracts\\IProdutoService.cs",
-              "ToolTip": "C:\\Users\\switch\\Desktop\\Checkpoint2_CSharp\\src\\Fiap.Estoque.Contracts\\IProdutoService.cs",
-              "RelativeToolTip": "src\\Fiap.Estoque.Contracts\\IProdutoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Title": "AppConfigConnectionStringProvider.cs",
+              "DocumentMoniker": "C:\\Users\\otavioferrao\\source\\repos\\Checkpoint2_CSharp\\src\\Fiap.Estoque.Config\\AppConfigConnectionStringProvider.cs",
+              "RelativeDocumentMoniker": "src\\Fiap.Estoque.Config\\AppConfigConnectionStringProvider.cs",
+              "ToolTip": "C:\\Users\\otavioferrao\\source\\repos\\Checkpoint2_CSharp\\src\\Fiap.Estoque.Config\\AppConfigConnectionStringProvider.cs",
+              "RelativeToolTip": "src\\Fiap.Estoque.Config\\AppConfigConnectionStringProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-17T15:05:35.856Z",
+              "WhenOpened": "2026-04-20T20:15:35.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Fiap.Estoque.UI",
+              "DocumentMoniker": "C:\\Users\\otavioferrao\\source\\repos\\Checkpoint2_CSharp\\src\\Fiap.Estoque.UI\\Fiap.Estoque.UI.csproj",
+              "RelativeDocumentMoniker": "src\\Fiap.Estoque.UI\\Fiap.Estoque.UI.csproj",
+              "ToolTip": "C:\\Users\\otavioferrao\\source\\repos\\Checkpoint2_CSharp\\src\\Fiap.Estoque.UI\\Fiap.Estoque.UI.csproj",
+              "RelativeToolTip": "src\\Fiap.Estoque.UI\\Fiap.Estoque.UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-20T19:41:42.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\otavioferrao\\source\\repos\\Checkpoint2_CSharp\\src\\Fiap.Estoque.UI\\MainForm.Designer.cs",
+              "RelativeDocumentMoniker": "src\\Fiap.Estoque.UI\\MainForm.Designer.cs",
+              "ToolTip": "C:\\Users\\otavioferrao\\source\\repos\\Checkpoint2_CSharp\\src\\Fiap.Estoque.UI\\MainForm.Designer.cs",
+              "RelativeToolTip": "src\\Fiap.Estoque.UI\\MainForm.Designer.cs",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAYwNwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T19:41:50.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainForm.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\otavioferrao\\source\\repos\\Checkpoint2_CSharp\\src\\Fiap.Estoque.UI\\MainForm.cs",
+              "RelativeDocumentMoniker": "src\\Fiap.Estoque.UI\\MainForm.cs",
+              "ToolTip": "C:\\Users\\otavioferrao\\source\\repos\\Checkpoint2_CSharp\\src\\Fiap.Estoque.UI\\MainForm.cs [Projeto]",
+              "RelativeToolTip": "src\\Fiap.Estoque.UI\\MainForm.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T19:15:49.304Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\Users\\otavioferrao\\source\\repos\\Checkpoint2_CSharp\\src\\Fiap.Estoque.UI\\MainForm.cs",
+              "RelativeDocumentMoniker": "src\\Fiap.Estoque.UI\\MainForm.cs",
+              "ToolTip": "C:\\Users\\otavioferrao\\source\\repos\\Checkpoint2_CSharp\\src\\Fiap.Estoque.UI\\MainForm.cs",
+              "RelativeToolTip": "src\\Fiap.Estoque.UI\\MainForm.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAYwNcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T18:39:47.689Z",
               "EditorCaption": ""
             }
           ]

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "tHcz0CSaHOQ=",
+  "dgSpecHash": "C8tQmx8qoQo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\switch\\Desktop\\Checkpoint2_CSharp\\src\\Fiap.Estoque.Config\\Fiap.Estoque.Config.csproj",
+  "projectFilePath": "C:\\Users\\otavioferrao\\source\\repos\\Checkpoint2_CSharp\\src\\Fiap.Estoque.Config\\Fiap.Estoque.Config.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\switch\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
-    "C:\\Users\\switch\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
-    "C:\\Users\\switch\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
+    "C:\\Users\\otavioferrao\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
+    "C:\\Users\\otavioferrao\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
+    "C:\\Users\\otavioferrao\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -31,6 +31,7 @@ partial class MainForm
 
     private void InitializeComponent()
     {
+        System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
         lblTitulo = new Label();
         lblNome = new Label();
         lblPreco = new Label();
@@ -46,18 +47,20 @@ partial class MainForm
         btnLimpar = new Button();
         dgvProdutos = new DataGridView();
         btnRemover = new Button();
+        pictureBox1 = new PictureBox();
         ((System.ComponentModel.ISupportInitialize)dgvProdutos).BeginInit();
+        ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
         SuspendLayout();
         // 
         // lblTitulo
         // 
         lblTitulo.AutoSize = true;
         lblTitulo.Font = new Font("Segoe UI", 16F, FontStyle.Bold);
-        lblTitulo.Location = new Point(24, 18);
+        lblTitulo.Location = new Point(197, 19);
         lblTitulo.Name = "lblTitulo";
-        lblTitulo.Size = new Size(429, 30);
+        lblTitulo.Size = new Size(367, 30);
         lblTitulo.TabIndex = 0;
-        lblTitulo.Text = "FIAP - Controle de Estoque em Camadas";
+        lblTitulo.Text = " Controle de Estoque em Camadas";
         // 
         // lblNome
         // 
@@ -167,7 +170,7 @@ partial class MainForm
         // 
         dgvProdutos.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
         dgvProdutos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-        dgvProdutos.Location = new Point(24, 207);
+        dgvProdutos.Location = new Point(24, 210);
         dgvProdutos.Name = "dgvProdutos";
         dgvProdutos.Size = new Size(816, 295);
         dgvProdutos.TabIndex = 13;
@@ -182,11 +185,22 @@ partial class MainForm
         btnRemover.UseVisualStyleBackColor = true;
         btnRemover.Click += btnRemover_Click;
         // 
+        // pictureBox1
+        // 
+        pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+        pictureBox1.Location = new Point(47, 0);
+        pictureBox1.Name = "pictureBox1";
+        pictureBox1.Size = new Size(144, 71);
+        pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+        pictureBox1.TabIndex = 15;
+        pictureBox1.TabStop = false;
+        // 
         // MainForm
         // 
         AutoScaleDimensions = new SizeF(7F, 15F);
         AutoScaleMode = AutoScaleMode.Font;
         ClientSize = new Size(870, 530);
+        Controls.Add(pictureBox1);
         Controls.Add(btnRemover);
         Controls.Add(dgvProdutos);
         Controls.Add(btnRecarregar);
@@ -205,11 +219,12 @@ partial class MainForm
         Name = "MainForm";
         StartPosition = FormStartPosition.CenterScreen;
         Text = "FIAP - C# Software Development";
-        Load += MainForm_Load;
         ((System.ComponentModel.ISupportInitialize)dgvProdutos).EndInit();
+        ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
         ResumeLayout(false);
         PerformLayout();
     }
 
     private Button btnRemover;
+    private PictureBox pictureBox1;
 }
