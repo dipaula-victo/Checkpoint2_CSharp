@@ -50,24 +50,38 @@ public class ProdutoRepositoryADO : IProdutoRepository
 
     public List<Produto> BuscarPorNome(string nome)
     {
+        if (string.IsNullOrWhiteSpace(nome))
+            throw new ArgumentException("O nome do produto não pode ser vazio.");
+
         var produtos = new List<Produto>();
 
-        using var connection = new SqlConnection(_connectionStringProvider.GetConnectionString());
-        using var command = new SqlCommand("dbo.sp_Produto_BuscarPorNome", connection);
-
-        command.CommandType = System.Data.CommandType.StoredProcedure;
-        command.Parameters.AddWithValue("@Nome", nome);
-
-        connection.Open();
-
-        using var reader = command.ExecuteReader();
-
-        while (reader.Read())
+        try
         {
-            produtos.Add(MapearProduto(reader));
-        }
+            using var connection = new SqlConnection(_connectionStringProvider.GetConnectionString());
+            using var command = new SqlCommand("dbo.sp_Produto_BuscarPorNome", connection);
 
-        return produtos;
+            command.CommandType = System.Data.CommandType.StoredProcedure;
+            command.Parameters.AddWithValue("@Nome", nome);
+
+            connection.Open();
+
+            using var reader = command.ExecuteReader();
+
+            while (reader.Read())
+            {
+                produtos.Add(MapearProduto(reader));
+            }
+
+            // produto não encontrado
+            if (produtos.Count == 0)
+                throw new Exception("Produto não encontrado no estoque.");
+
+            return produtos;
+        }
+        catch (SqlException)
+        {
+            throw new Exception("Erro ao acessar o banco de dados.");
+        }
     }
 
     public void AtualizarEstoque(int id, int quantidade, char tipo)

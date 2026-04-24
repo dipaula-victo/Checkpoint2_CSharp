@@ -172,7 +172,7 @@ partial class MainForm
         dgvProdutos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
         dgvProdutos.Location = new Point(24, 210);
         dgvProdutos.Name = "dgvProdutos";
-        dgvProdutos.Size = new Size(816, 295);
+        dgvProdutos.Size = new Size(978, 328);
         dgvProdutos.TabIndex = 13;
         // 
         // btnRemover
@@ -199,7 +199,7 @@ partial class MainForm
         // 
         AutoScaleDimensions = new SizeF(7F, 15F);
         AutoScaleMode = AutoScaleMode.Font;
-        ClientSize = new Size(870, 530);
+        ClientSize = new Size(1032, 563);
         Controls.Add(pictureBox1);
         Controls.Add(btnRemover);
         Controls.Add(dgvProdutos);
