@@ -45,9 +45,11 @@ Validação e Tratamento de Erros: Mecanismos de captura de exceções para gara
 
 ### Como Executar a Aplicação
 1. Configuração do Banco de Dados
+
 O sistema requer uma instância do Microsoft SQL Server. Para criar a estrutura necessária, abra o arquivo "Script_SQL_CP02.sql" no seu SQL Server Management Studio 20, após isso execute a query para criar a estrutura do banco de dados.
 
 2. Configuração do Ambiente
+
 No Visual Studio, localize o arquivo App.config dentro do projeto Fiap.Estoque.UI.
 
 Ajuste a connectionString para o seu servidor.
@@ -59,6 +61,7 @@ Ajuste a connectionString para o seu servidor.
 	</connectionStrings>
 ```
 3. Execução
+
 Abra a solução Fiap.Estoque.sln no Visual Studio 2022.
 
 Defina o projeto Fiap.Estoque.UI como Startup Project.
@@ -67,7 +70,8 @@ Compile e execute o projeto pressionando F5.
 
 ---
 
-###Observações Adicionais
+### Observações Adicionais
+
 Arquitetura: O projeto está segmentado em camadas de Modelo (Model), Contratos (Contracts), Acesso a Dados (DAL), Lógica de Negócio (BLL) e Interface de Usuário (UI).
 
 Dependências: Certifique-se de que o provedor System.Data.SqlClient esteja instalado via Gerenciador de Pacotes NuGet.
