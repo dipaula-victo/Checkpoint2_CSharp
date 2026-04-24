@@ -19,7 +19,7 @@ Esta aplicação foi desenvolvida para o gerenciamento de inventário de produto
 
 ---
  
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
  
 - **C#** — Linguagem principal da aplicação
 - **Windows Forms** — Framework para a interface desktop
@@ -30,7 +30,7 @@ Esta aplicação foi desenvolvida para o gerenciamento de inventário de produto
 
 ---
 
-### ✅ Principais Funcionalidades
+### Principais Funcionalidades
 Gerenciamento de Produtos (CRUD): Permite a inclusão, listagem, atualização e exclusão de itens no banco de dados.
 
 Interface Dinâmica: UI customizada com tema escuro e identidade visual institucional.
@@ -43,35 +43,20 @@ Validação e Tratamento de Erros: Mecanismos de captura de exceções para gara
 
 ---
 
-### 🚀 Como Executar a Aplicação
+### Como Executar a Aplicação
 1. Configuração do Banco de Dados
-O sistema requer uma instância do Microsoft SQL Server. Para criar a estrutura necessária, execute o seguinte script, respeitando o padrão de nomenclatura obrigatório:
+O sistema requer uma instância do Microsoft SQL Server. Para criar a estrutura necessária, abra o arquivo "Script_SQL_CP02.sql" no seu SQL Server Management Studio 20, após isso execute a query para criar a estrutura do banco de dados.
 
-```
-CREATE DATABASE DB_PrimeiroNomeDeUmAluno_RM_123456;
-GO
-
-USE DB_PrimeiroNomeDeUmAluno_RM_123456;
-GO
-
-CREATE TABLE Produto (
-    Id INT IDENTITY(1,1) PRIMARY KEY,
-    Nome VARCHAR(100) NOT NULL,
-    Preco DECIMAL(10,2) NOT NULL,
-    Quantidade INT NOT NULL,
-    Ativo BIT NOT NULL DEFAULT 1
-);
-```
 2. Configuração do Ambiente
 No Visual Studio, localize o arquivo App.config dentro do projeto Fiap.Estoque.UI.
 
 Ajuste a connectionString para o seu servidor.
 ```
-<connectionStrings>
-    <add name="EstoqueDb" 
-         connectionString="Data Source=NOME_DO_SERVIDOR;Initial Catalog=DB_PrimeiroNomeDeUmAluno_RM_123456;Integrated Security=True;TrustServerCertificate=True" 
-         providerName="System.Data.SqlClient" />
-</connectionStrings>
+	<connectionStrings>
+		<add name="EstoqueDb"
+			 connectionString="Server=NOME_DO_SERVIDOR;Database=DB_Djalma_RM_555530;Trusted_Connection=True;TrustServerCertificate=True;"
+			 providerName="System.Data.SqlClient" />
+	</connectionStrings>
 ```
 3. Execução
 Abra a solução Fiap.Estoque.sln no Visual Studio 2022.
@@ -82,7 +67,7 @@ Compile e execute o projeto pressionando F5.
 
 ---
 
-### 📝 Observações Adicionais
+###Observações Adicionais
 Arquitetura: O projeto está segmentado em camadas de Modelo (Model), Contratos (Contracts), Acesso a Dados (DAL), Lógica de Negócio (BLL) e Interface de Usuário (UI).
 
 Dependências: Certifique-se de que o provedor System.Data.SqlClient esteja instalado via Gerenciador de Pacotes NuGet.
